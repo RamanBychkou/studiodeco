@@ -1,0 +1,118 @@
+@media screen and (min-width: 320px) {
+	body {
+		color: #444e53;
+	}
+	.dist-company {
+		padding: 20px;
+	}
+	.about-company {
+		font-size: 20px;
+		line-height: 0.8;
+		display: inline-block;
+		max-width: 1072px;
+	}
+	.about-company h3 {
+		font-size: 35px;
+		text-transform: uppercase;
+		margin-bottom: 14px;
+		text-align: center;
+		font-weight: 100;
+	}
+	.bg-wrapper {
+		max-width: 1552px;
+		margin: 0 auto;
+	}
+	.company-logo {
+		margin: 0 auto;
+		display: inline-block;
+		vertical-align: top;
+	}
+	.collection-line {
+		border-bottom: 3px solid  #5d5e5f;
+	}
+	.collection-title {
+		max-width: 641px;
+		margin: 304px 0 40px 0;
+		padding: 0 10px;
+		position: relative;
+		z-index: 10;
+	}
+	.collection-title h3 {
+		text-align: left;
+		color: #4d4e4e;
+		font-size: 35px;
+		font-weight: 400;
+	}
+	.collection {
+		background-image: url(../img/collect-secret-garden.jpg);
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
+		background-size: cover;
+		max-height: 512px;
+		position: relative;
+	}
+	.collection::after {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: linear-gradient(to right, #ffffff 15%, transparent 75%);
+		opacity: 0.8;
+	}
+	body .collection-container:nth-child(2) .collection {
+		background-image: url(../img/fuggerhouse-collection/spring-1.jpg);
+	}
+	body .collection-container:nth-child(3) .collection {
+		background-image: url(../img/fuggerhouse-collection/home-1.jpg);
+	}
+	body .collection-container:nth-child(4) .collection {
+		background-image: url(../img/fuggerhouse-collection/spring-2015-1.jpg);
+	}
+	body .collection-container:nth-child(5) .collection {
+		background-image: url(../img/fuggerhouse-collection/holiday-1.jpg);
+	}
+	body .collection-container:nth-child(6) .collection {
+		background-image: url(../img/fuggerhouse-collection/vernisage-1.jpg);
+	}
+	body .collection-container:nth-child(7) .collection {
+		background-image: url(../img/fuggerhouse-collection/light-shadow-1.jpg);
+	}
+	body .collection-container:nth-child(8) .collection {
+		background-image: url(../img/fuggerhouse-collection/voyage-1.jpg);
+	}
+	body .collection-container:nth-child(9) .collection {
+		background-image: url(../img/fuggerhouse-collection/nordic-1.jpg);
+	}
+	body .collection-container:nth-child(10) .collection {
+		background-image: url(../img/fuggerhouse-collection/silk-1.jpg);
+	}
+	.slider-carousel {
+		margin: 20px 0 20px 0;
+	}
+	.slide-container {
+		height: 285px;
+	}
+	@media screen and (min-width: 788px) {
+	.dist-company {
+		padding: 50px;
+	}
+	.about-company {
+		font-size: 29px;
+		line-height: 0.8;
+		margin-left: 40px;
+		max-width: 835px;
+		
+	}
+	.about-company h3 {
+		text-align: left;
+	}
+	.collection-title h3 {
+		font-size: 64px;
+		font-weight: 400;
+	}
+	.slider-carousel {
+		margin: 20px 0 170px 0;
+	}
+}
